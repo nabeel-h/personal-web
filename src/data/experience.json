@@ -1,0 +1,24 @@
+{
+	"positions": [{
+		"link": "https://www.corporatetraveler.us/",
+		"company": "Corporate Traveler",
+		"position": "Accountant",
+		"daterange": "July, 2015 - March 2017",
+		"points": [
+			"Responsible for monitoring financial performance and improvement for a segment of companys NA west coast operations.",
+			"Created dynamic dashboards and ad-hoc reporting as needed to improve business decisions.",
+			"Prepared monthly/quarterly/annual financials and completed accounting cycles.",
+			"Performed internal audits."
+		]
+	}, {
+		"link": "http://www.google.com",
+		"company": "Google",
+		"position": "CEO",
+		"daterange": "2017 - Present",
+		"points": [
+			"Im basically cool.",
+			"And youre not",
+			"OK?"
+		]
+	}]
+}

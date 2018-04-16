@@ -1,0 +1,171 @@
+{
+    "skills":[
+        {
+            "title":"Python",
+            "competency": 4.5,
+            "category": ["Programming & Markup Languages"]
+        },
+        {
+            "title":"JavaScript(ES6)",
+            "competency": 4,
+            "category": ["Programming & Markup Languages"]},
+        {
+            "title":"R",
+            "competency": 3.5,
+            "category": ["Programming & Markup Languages"]
+        },
+        {
+            "title": "HTML5",
+            "competency": 4,
+            "category": ["Programming & Markup Languages"]
+        },
+        {
+            "title": "CSS3",
+            "competency": 4,
+            "category": ["Programming & Markup Languages"]
+        },
+        {
+            "title": "VBA",
+            "competency": 4,
+            "category": ["Programming & Markup Languages"]
+        },
+        {
+            "title": "Postgres SQL",
+            "competency": 4,
+            "category": ["RBMDS"]
+        },
+        {
+            "title": "SQLite",
+            "competency": 4,
+            "category": ["RBMDS"]
+        },
+        {
+            "title": "MongoDB",
+            "competency": 4,
+            "category": ["RBMDS"]
+        },
+        {
+            "title": "MySQL",
+            "competency": 4,
+            "category": ["RBMDS"]
+        },
+        {
+            "title": "Google BigQuery",
+            "competency": 4,
+            "category": ["RBMDS"]
+        },
+        {
+            "title":"MVC/MC",
+            "competency": 4,
+            "category": ["Protocols & Patterns"]
+        },
+        {
+            "title":"HTTPS",
+            "competency": 3.5,
+            "category": ["Protocols & Patterns"]
+        },
+        {
+            "title":"GIT",
+            "competency": 3,
+            "category": ["Protocols & Patterns"]
+        },
+        {
+            "title":"Responsive Design",
+            "competency": 3,
+            "category": ["Protocols & Patterns"]
+        },
+        {
+            "title":"Github",
+            "competency": 3,
+            "category": ["Tools & Frameworks/Libraries"]
+        },
+        {
+            "title":"Bootstrap",
+            "competency": 3.5,
+            "category": ["Tools & Frameworks/Libraries"]
+        },
+        {
+            "title":"MS Excel",
+            "competency": 5,
+            "category": ["Tools & Frameworks/Libraries"]
+        },
+        {
+            "title":"Tableau",
+            "competency": 3.5,
+            "category": ["Tools & Frameworks/Libraries"]
+        },
+        {
+            "title":"pandas.py",
+            "competency": 5,
+            "category": ["Tools & Frameworks/Libraries"]
+        },
+        {
+            "title":"Jquery.js",
+            "competency": 3,
+            "category": ["Tools & Frameworks/Libraries"]
+        },
+        {
+            "title":"dplyr.r",
+            "competency": 3,
+            "category": ["Tools & Frameworks/Libraries"]
+        },
+        {
+            "title":"ggplot2.r",
+            "competency": 3,
+            "category": ["Tools & Frameworks/Libraries"]
+        },
+        {
+            "title":"shiny.r",
+            "competency": 2,
+            "category": ["Tools & Frameworks/Libraries"]
+        },
+        {
+            "title":"React.js",
+            "competency": 4,
+            "category": ["Tools & Frameworks/Libraries"]
+        },
+        {
+            "title":"numpy.py",
+            "competency": 5,
+            "category": ["Tools & Frameworks/Libraries"]
+        },
+        {
+            "title":"Flask.py",
+            "competency": 4,
+            "category": ["Tools & Frameworks/Libraries"]
+        },
+        {
+            "title":"MapGL",
+            "competency": 4,
+            "category": ["Tools & Frameworks/Libraries"]
+        },
+        {
+            "title":"matplotlib.py",
+            "competency": 3.5,
+            "category": ["Tools & Frameworks/Libraries"]
+        },
+        {
+            "title":"BeautifulSoup4.py",
+            "competency": 4,
+            "category": ["Tools & Frameworks/Libraries"]
+        }
+    ],
+    "categories":[
+        {
+            "name": "Programming & Markup Languages",
+            "color": "#70d21f"
+        },
+        {
+            "name": "RBMDS",
+            "color": "#ff3633"
+        },
+        {
+            "name": "Protocols & Patterns",
+            "color": "#f3e809"
+        },
+        {
+            "name": "Tools & Frameworks/Libraries",
+            "color": "#3386e9"
+        }
+    ]
+}
