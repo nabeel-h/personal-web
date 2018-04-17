@@ -3,7 +3,7 @@
        {
           "title":"GeoData mapping visualization",
           "subtitle":"Visualization tool that can render large volumes (100,000+) of geo coordinate data and also provide summary statistics.",
-          "link":"https://github.com/nabeel-h/ping-map",
+          "link":"https://ping-mapn.herokuapp.com/",
           "image": "/images/projects/geodataMap.jpg",
           "date": "2018-03-30",
           "points":[

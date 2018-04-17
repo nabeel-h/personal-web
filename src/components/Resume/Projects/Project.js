@@ -11,15 +11,15 @@ class Project extends React.Component {
     render () {
         let projectsData = this.props.data
         return (
-            <div>
+            <article className="projects-container">
                 <header>
                     <h4><a href={projectsData.link}>{projectsData.title}</a></h4>
                     <p>{projectsData.subtitle}</p>
                 </header>
-                <ul>
+                <ul className="points">
                     {getProjectPoints(projectsData.points)}
                 </ul>
-            </div>
+            </article>
         )
     }
 };

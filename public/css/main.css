@@ -2739,35 +2739,47 @@ body.single #footer {
 #resume .link-container h4 {
   text-decoration: none;
   border-bottom: none;
-  display: inline-flex; }
+  display: inline-flex;
+  color: #1e90ff; }
   #resume .link-container h4 a {
     padding: 0 .5em;
     margin: 0; }
-#resume .education .title {
-  text-align: center;
-  margin-bottom: 2em; }
-#resume .experience .title {
-  text-align: center; }
-#resume .experience .job {
-  margin: 1em; }
-  #resume .experience .job p {
-    margin: 0; }
+#resume .education {
+  padding-top: 1.6em; }
+  #resume .education .title {
+    text-align: center; }
+    #resume .education .title h3 {
+      color: #1e90ff; }
+#resume .experience {
+  padding-top: 1.6em; }
+  #resume .experience .title {
+    text-align: center; }
+    #resume .experience .title h3 {
+      color: #1e90ff; }
+  #resume .experience .job {
+    margin: 1em; }
+    #resume .experience .job p {
+      margin: 0; }
 #resume .jobs-container .points li {
   margin: 0;
   padding: 0;
   font-size: .9em; }
-#resume .courses {
+#resume .projects {
   padding-top: 1.6em; }
-  #resume .courses .title {
+  #resume .projects .title {
     text-align: center; }
-  #resume .courses .course-list {
-    text-align: center; }
-    #resume .courses .course-list h4 {
-      white-space: nowrap; }
+    #resume .projects .title h3 {
+      color: #1e90ff; }
+  #resume .projects .projects-container .points li {
+    margin: 0;
+    padding: 0;
+    font-size: .9em; }
 #resume .skills {
   margin-top: 2em; }
   #resume .skills .title {
     text-align: center; }
+    #resume .skills .title h3 {
+      color: #1e90ff; }
     #resume .skills .title p {
       font-size: 0.9em; }
 #resume .references {

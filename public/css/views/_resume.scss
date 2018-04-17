@@ -11,6 +11,7 @@
 		text-decoration:none;
 		border-bottom: none;
 		display: inline-flex;
+		color: #1e90ff;
 
 		a {
 				padding: 0 .5em;
@@ -19,15 +20,22 @@
 	}
 
 	.education {
-
+		padding-top: 1.6em;
 		.title {
 			text-align: center;
-			margin-bottom: 2em;
+			h3{
+				color: #1e90ff;
+			}
 		}
 	}
+
 	.experience {
+		padding-top: 1.6em;
 		.title {
 			text-align: center;
+			h3{
+				color: #1e90ff;
+			}
 		}
 		.job {
 			margin: 1em;
@@ -47,16 +55,21 @@
 		}
 	}
 
-	.courses {
+	.projects {
 		padding-top: 1.6em;
 		.title {
 			text-align: center;
-		}
-		.course-list {
-			text-align: center;
-
-			h4 {
-				white-space: nowrap;
+			h3{
+				color: #1e90ff;
+			}
+		}	
+		.projects-container {
+			.points {
+				li {
+					margin: 0;
+					padding: 0;
+						font-size: .9em;
+				}
 			}
 		}
 	}
@@ -65,6 +78,9 @@
 		margin-top: 2em;
 		.title {
 			text-align: center;
+			h3{
+				color: #1e90ff;
+			}
 			p {
 				font-size: 0.9em;
 			}

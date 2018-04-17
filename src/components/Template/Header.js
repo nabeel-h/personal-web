@@ -25,7 +25,7 @@ const Header = () => (
         {id ? <li><a href="/logout">Logout</a></li> : null}
       </ul>
     </nav>
-
+    <Hamburger />
   </header>
 );
 export default Header;

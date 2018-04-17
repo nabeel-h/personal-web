@@ -11,14 +11,15 @@ class Job extends React.Component {
     render () {
         let positionsData = this.props.data
         return (
-            <div>
+            <article className="jobs-container">
                 <header>
                     <h4><a href={positionsData.link}>{positionsData.company}</a> - {positionsData.position}</h4>
+                    <p>{positionsData.daterange}</p>
                 </header>
-                <ul>
+                <ul className="points">
                     {getJobPoints(positionsData.points)}
                 </ul>
-            </div>
+            </article>
         )
     }
 };

@@ -11,7 +11,7 @@ class Projects extends React.Component {
     render() {
         let projectsData = this.props.data
         return (
-            <div>
+            <div className="projects">
                 <div className="link-to" id="projects" />
                 <div className="title">
                     <h3>Projects</h3>
