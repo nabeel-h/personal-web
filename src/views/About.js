@@ -1,17 +1,36 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
 import Helmet from 'react-helmet';
-import marked from "marked";
 
 import Main from '../layouts/Main';
 
-import LinkRenderer from '../components/About/LinkRenderer';
-import markdown from '../data/README.md';
+import AboutMe from '../components/About/AboutMe';
 
-const count = markdown.split(/\s+/)
-  .map(s => s.replace(/\W/g, ''))
-  .filter(s => s.length).length;
+import aboutMeData from '../data/aboutme.json';
+
+// To Do get counter working
+function WordCount(str) { 
+  return str.split(" ").length;
+}
+
+let count = 0;
+console.log(aboutMeData);
+
+for (var i = 0; i < aboutMeData.length; i++){
+  console.log("wtf")
+  let obj = aboutMeData[i]
+  console.log(obj)
+  for (var key in obj){
+      let attrName = key;
+      let list = obj[key];
+      console.log(list);
+      list.forEach(function(element) {
+        let current_count = WordCount(element);
+        count = count + current_count;
+      });
+  }
+}
+
 
 const About = () => (
   <Main>
@@ -20,16 +39,9 @@ const About = () => (
       <header>
         <div className="title">
           <h2><Link to="/about">About Me</Link></h2>
-          <p>(in about {count} words)</p>
         </div>
       </header>
-      <ReactMarkdown
-        source={markdown}
-        renderers={{
-          Link: LinkRenderer,
-        }}
-        escapeHtml={false}
-      />
+      <AboutMe data={aboutMeData} />
     </article>
   </Main>
 );

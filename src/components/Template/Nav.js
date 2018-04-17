@@ -18,7 +18,7 @@ const Nav = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hello! I'm Nabeel Hussain and I love working with data.
-            I like to extract data, clean it, store it, analyze it and build tools to display my findings in a programmtic way.
+            I like to extract data, clean it, store it, analyze it and build tools to display my findings in a programmatic way.
       </p>
       <ul className="actions">
         <li><Link to="/resume" className="button">Learn More</Link></li>
@@ -33,7 +33,7 @@ const Nav = () => (
           </li>
         ))}
       </ul>
-      <p className="copyright">&copy; Nabeel Hussain <Link to="http://google.com">nabeel-hussain.rocks</Link>.</p>
+      <p className="copyright">&copy; Nabeel Hussain <Link to="https://nabeel-h.herokuapp.com/">nabeel-h</Link>.</p>
     </section>
   </section>
 );
