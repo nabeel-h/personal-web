@@ -29,7 +29,7 @@
           "subtitle":"Web application that uses Yelp's API to notify users if a new business of the user's choosing opens up in their specified location.",
           "link":"https://github.com/nabeel-h/Custom-Item-Price-and-New-Business-Alerts",
           "image": "/images/projects/newbusinessYelp.jpg",
-          "date": "ongoing",
+          "date": "2018-04-01",
           "points":[
              "Allows users to make an account and set their own business alerts by stating the type of business they are interested in and in what city (e.g. Thai Restaurants, Gardena, CA).",
              "When alert is first created the application uses Yelp's API to note the current businesses of that type in that area at that time. The application will then check every 3 days to see if any new businesses show up and if so it will generate and send off an email alert automatically.",
