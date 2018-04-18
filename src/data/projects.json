@@ -27,12 +27,13 @@
        {
         "title":"Excel to Analytics Web App",
         "subtitle":"Web app that accepts an Excel file in a particular format and produces summary statistics and visualizations.",
-        "link":"https://github.com/nabeel-h/Excel-to-Analytics",
+        "link":"http://inmarket-analysis-webapp.herokuapp.com/",
         "image": "/images/projects/excelToAnalytics.jpg",
         "date": "2018-03-01",
         "points":[
            "Created to showcase an application that can read user inputted Excel files and output summary analytics and visualizations.",
-           " Backend and front end created with Python."
+           " Backend and front end created with Python.",
+           " If you visit the website click the 'Demo' button to run, since you won't have the appropriate Excel file on your computer to use the upload functionality."
         ]
         },
        {
