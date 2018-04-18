@@ -28,15 +28,15 @@
         "title":"Excel to Analytics Web App",
         "subtitle":"Web app that accepts an Excel file in a particular format and produces summary statistics and visualizations.",
         "link":"http://inmarket-analysis-webapp.herokuapp.com/",
-        "image": "/images/projects/excelToAnalytics.jpg",
+        "image": "/images/projects/excelToAnalytics.JPG",
         "date": "2018-03-01",
         "points":[
            "Created to showcase an application that can read user inputted Excel files and output summary analytics and visualizations.",
            " Backend and front end created with Python.",
            " If you visit the website click the 'Demo' button to run, since you won't have the appropriate Excel file on your computer to use the upload functionality."
-        ]
+            ]
         },
-       {
+        {
           "title":"New Business Alerts Web App",
           "subtitle":"Web application that uses Yelp's API to notify users if a new business of the user's choosing opens up in their specified location.",
           "link":"https://github.com/nabeel-h/Custom-Item-Price-and-New-Business-Alerts",
