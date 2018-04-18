@@ -8,8 +8,8 @@
           "date": "2018-03-30",
           "points":[
              "Created for a marketing/tech company that deals with cellphone data. Was given a csv file with over 350k+ rows each with a coordinate, timestamp, store name and device id value. Tasked with creating a mapping visualiation sorted by time.",
-             "Data cleaning and manipulation is handled with a Python stack and passed as a JSON file to a react.js frontend.",
-             "Further implementation will include a standalone API point created with Python that will serve the react front end."
+             " Data cleaning and manipulation is handled with a Python stack and passed as a JSON file to a react.js frontend.",
+             " Further implementation will include a standalone API point created with Python that will serve the react front end."
           ]
        },
        {
@@ -17,13 +17,24 @@
           "subtitle":"Analyzed user submitted data to summarize key events that happened during each NBA season.",
           "link":"https://github.com/nabeel-h/redditNBA_api",
           "image": "/images/projects/redditNBA.jpg",
-          "date": "2018-01-02",
+          "date": "2018-03-02",
           "points":[
              "Created a RESTful API endpoint that provides data summarizing significant events that occurred throughout an NBA season.",
-             "Over 600,000+ submissions were harvested from reddit, stored in a SQL database and then analyzed with a Python data stack. Based on spikes in reddit user activity the analysis extracted submissions that were usefull in helping describe an NBA season (or period within a season) for all 32 teams.",
-             "This backend was created with Python."
+             " Over 600,000+ submissions were harvested from reddit, stored in a SQL database and then analyzed with a Python data stack. Based on spikes in reddit user activity the analysis extracted submissions that were usefull in helping describe an NBA season (or period within a season) for all 32 teams.",
+             " This backend was created with Python."
             ]
        },
+       {
+        "title":"Excel to Analytics Web App",
+        "subtitle":"Web app that accepts an Excel file in a particular format and produces summary statistics and visualizations.",
+        "link":"https://github.com/nabeel-h/Excel-to-Analytics",
+        "image": "/images/projects/excelToAnalytics.jpg",
+        "date": "2018-03-01",
+        "points":[
+           "Created to showcase an application that can read user inputted Excel files and output summary analytics and visualizations.",
+           " Backend and front end created with Python."
+        ]
+        },
        {
           "title":"New Business Alerts Web App",
           "subtitle":"Web application that uses Yelp's API to notify users if a new business of the user's choosing opens up in their specified location.",
@@ -32,8 +43,8 @@
           "date": "2018-04-01",
           "points":[
              "Allows users to make an account and set their own business alerts by stating the type of business they are interested in and in what city (e.g. Thai Restaurants, Gardena, CA).",
-             "When alert is first created the application uses Yelp's API to note the current businesses of that type in that area at that time. The application will then check every 3 days to see if any new businesses show up and if so it will generate and send off an email alert automatically.",
-             "Python was used for the back end/front end. MongoDB was the RBMDS."
+             " When alert is first created the application uses Yelp's API to note the current businesses of that type in that area at that time. The application will then check every 3 days to see if any new businesses show up and if so it will generate and send off an email alert automatically.",
+             " Python was used for the back end/front end. MongoDB was the RBMDS."
           ]
        }
     ]
