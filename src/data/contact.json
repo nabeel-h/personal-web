@@ -2,7 +2,17 @@
         {
             "link": "https://github.com/nabeel-h",
             "label": "Github",
-            "icon": "icon-github-circled"
+            "icon": "fab fa-git"
+        },
+        {
+            "link":"https://www.linkedin.com/in/nabeel-hussain-5a928b3a/",
+            "label":"LinkedIn",
+            "icon":"fab fa-linkedin"
+        },
+        {
+            "link":"mailto:n.hussain@protonmail.com",
+            "label":"Email",
+            "icon":"fas fa-envelope-square"
         }
     ]
 }

@@ -8,7 +8,7 @@ let data = contactData.data;
 const Nav = () => (
   <section id="sidebar">
     <section id="intro">
-      <Link to="/" className="logo"><img src="/images/me_icon.jpg" alt="" /></Link>
+      <Link to="/" className="logo"><img src="/images/me.jpg" alt="" /></Link>
       <header>
         <h2>Nabeel Hussain</h2>
         <p><a href="mailto:n.hussain@protonmail.com">n.hussain@protonmail.com</a></p>
@@ -33,7 +33,7 @@ const Nav = () => (
           </li>
         ))}
       </ul>
-      <p className="copyright">&copy; Nabeel Hussain <Link to="https://nabeel-h.herokuapp.com/">nabeel-h</Link>.</p>
+      <p className="copyright">&copy; Nabeel Hussain <Link to="/">nabmatic.com</Link>.</p>
     </section>
   </section>
 );

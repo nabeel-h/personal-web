@@ -8,7 +8,7 @@ import contactData from '../data/contact.json';
 
 const messages = [
     'I need a job, plz hire me.',
-    'I will now proceed to say "Thank you" in 14 different languages :)',
+    'I will now proceed to say "Thank you" in 18 different languages :)',
     'Thank you!',
     'ඔබට ස්තුතියි! (Sinhala)',
     'நன்றி! (Tamil)',

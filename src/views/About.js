@@ -9,28 +9,6 @@ import AboutMe from '../components/About/AboutMe';
 import aboutMeData from '../data/aboutme.json';
 
 // To Do get counter working
-function WordCount(str) { 
-  return str.split(" ").length;
-}
-
-let count = 0;
-console.log(aboutMeData);
-
-for (var i = 0; i < aboutMeData.length; i++){
-  console.log("wtf")
-  let obj = aboutMeData[i]
-  console.log(obj)
-  for (var key in obj){
-      let attrName = key;
-      let list = obj[key];
-      console.log(list);
-      list.forEach(function(element) {
-        let current_count = WordCount(element);
-        count = count + current_count;
-      });
-  }
-}
-
 
 const About = () => (
   <Main>
