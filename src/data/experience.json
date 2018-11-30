@@ -1,5 +1,17 @@
 {
-	"positions": [{
+	"positions": [
+		{
+		"link": "https://www.criticalmassgroup.com",
+		"company": "Critical Mass Group",
+		"position": "Sales Operations Analyst",
+		"daterange": "April 2018 - November 2018",
+		"points": [
+			"Maintained and coordinated operations which consisted of routing 5 ASM (Area Service Manager) reps  throughout all of SoCal. Each were tasked with visiting 15-20 brick and mortar stores each day and either  merchandising our own clients products or selling them into the store. Data from each visit was collected  through Repsly CRM. Personally maintained a database of over 2000 store locations that was constantly  updated through both public and private sources. WorkWave was then used to create an efficient route and  schedule that would allow our ASM’s all stores efficiently over a 4 week period. ",
+			"Created and managed reporting for clients and management in programmatic fashion using tools such as  Excel, Sheets, Tableau, AWS S3, Python and also public API’s to solve problems.",
+			"Laid out requirements and oversaw development of a custom BI reporting full stack solution intended for  use by both our Clients and internal management. Technologies used were Golang for the back-end and  JavaScript (React) for the front-end."
+				]
+		},
+		{
 		"link": "https://www.corporatetraveler.us/",
 		"company": "Corporate Traveler",
 		"position": "Accountant",
@@ -9,6 +21,7 @@
 			"Created dynamic dashboards and ad-hoc reporting as needed to improve business decisions.",
 			"Prepared monthly/quarterly/annual financials and completed accounting cycles.",
 			"Performed internal audits."
-		]
-	}]
+				]
+		}
+	]
 }
