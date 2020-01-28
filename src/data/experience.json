@@ -1,6 +1,19 @@
 {
 	"positions": [
 		{
+			"link": "https://ayso.org",
+			"company": "AYSO",
+			"position": "Financial Analyst",
+			"daterange": "February 2019 - Present",
+			"points": [
+				"Used programming and accounting experience to bridge the gap between Finance and IT departments.",
+				"Implemented new processes that automated reporting, increased availability of data including checks to ensure accuracy of financial data from source to internal financial systems.",
+				"Oversaw development front end and back end software projects.",
+				"Maintained and queried SQL Server database using best practices and created scripts as needed.",
+				"Handled Sales & Use tax returns for over 700 segments over 50 states."
+				]
+			},
+		{
 		"link": "https://www.criticalmassgroup.com",
 		"company": "Critical Mass Group",
 		"position": "Sales Operations Analyst",
